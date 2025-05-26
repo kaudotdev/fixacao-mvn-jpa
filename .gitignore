@@ -1,0 +1,101 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle (caso venha a usar)
+.gradle/
+gradle-app.setting
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# SBT (Scala Build Tool)
+project/project/
+project/target/
+
+### IDEs ###
+
+# IntelliJ IDEA
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+### Java ###
+
+# Arquivos compilados Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Arquivos de dump da JVM
+hs_err_pid*
+replay_pid*
+
+# JProfiler
+*.jprofiler
+
+### Sistema e Temporários ###
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Arquivos de backup
+*.bak
+*.backup
+
+### Configurações Sensíveis ###
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.production
+
+# Configurações locais
+application-local.properties
+application-dev.properties
+
+# Spring Boot DevTools
+spring-boot-devtools.properties
